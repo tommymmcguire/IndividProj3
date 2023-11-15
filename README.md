@@ -3,6 +3,8 @@
 ## Using Databricks to perform ETL (Extract, Transform, Load)
 ---
 ## Overview
+**Walk Through Youtube Video**
+[YouTube](https://youtu.be/0_62e7htGqQ)
 ---
 This repository contains the cloned version of my code hosted in Azure Databricks. You will need an Azure account to run this. The goal of this project is to use Databricks to extract, transform, and load data, use Delta Lake, use Spark SQL, create a visualization, and automate a trigger to initiate the pipeline. My specific goal took this assigment a step further and aimed to predict 'outage_count' for storms using MAPE as the evaluation metric. MAPE is specifically difficult to use as a metric becuase the true values of outage count are often 0 which drives MAPE to infinity. However, I am treating the project as though I would be presenting the project to someomne with a non-technical background, and therefore, MAPE would be the appropriate metric to convey the results. This will help utility companies assess the danger of storms, and allocate the resources necessary to handle them.
 
